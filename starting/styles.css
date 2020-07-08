@@ -1,0 +1,108 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body {
+    background-color: olive;
+
+}
+
+header {
+    text-align: center;
+    background-color: tan ;
+    ;
+    
+}
+header h1 {
+    padding-top: .5%;
+    padding-bottom: 1.5%;
+}
+nav {
+    background-color: cadetblue;
+    padding: 1%;
+}
+nav ul li {
+    display: inline;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: large;
+    margin-right: 5%;
+    margin-left: 2%;
+    
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+.meetup {
+    margin-top: 10%;
+    margin-left: 1.5%;
+    
+}
+.meetup h2 {
+    color: #FFFF00;
+    margin-bottom: 1%;
+    
+}
+.meetup img {
+    width: 33%;
+    height: 25em;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+section p {
+    color: lightyellow;
+    padding: .5em;
+}
+.endorcement_quote {
+    font-size: xx-large;
+} 
+.endorcements {
+    background-color: cadetblue ;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.join_fun {
+    text-align: center;
+    font-size: 26px;
+    
+    
+}
+.join_fun img {
+    width: 10em;
+    height: 10em;
+    margin: 0;
+    padding: 0;    
+}
+.join_fun_stretch {
+    font-size: 26px;
+    text-align: center;
+}
+.join_fun_stretch img {
+    width: 50%;
+    height: 15em;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+footer {
+    background-color: cadetblue ;
+    padding: .5%;
+    
+}
+.trademark {
+    text-align: right;
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .meetup img {
+        display: block;
+        width: 20em;
+        height: 20em;
+    }
+}
